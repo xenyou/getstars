@@ -12,5 +12,15 @@
   "emberjs/ember.js",
   "angular/angular",
   "angular/angular.js",
-  "jashkenas/backbone"
+  "jashkenas/backbone",
+  "aurelia/framework",
+  "Kurento/kurento-media-server",
+  "meetecho/janus-gateway",
+  "ging/licode",
+  "jitsi/jitsi-videobridge",
+  "koajs/koa",
+  "expressjs/express",
+  "hapijs/hapi",
+  "balderdashy/sails",
+  "keithwhor/nodal"
 ]

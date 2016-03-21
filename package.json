@@ -1,67 +1,33 @@
 {
-  "_args": [
-    [
-      "getstars",
-      "/Users/xenyou/dev"
-    ]
-  ],
-  "_from": "getstars@latest",
-  "_id": "getstars@1.0.5",
-  "_inCache": true,
-  "_installable": true,
-  "_location": "/getstars",
-  "_nodeVersion": "2.2.1",
-  "_npmUser": {
-    "email": "yknetg@gmail.com",
-    "name": "xenyou"
-  },
-  "_npmVersion": "2.11.0",
-  "_phantomChildren": {},
-  "_requested": {
-    "name": "getstars",
-    "raw": "getstars",
-    "rawSpec": "",
-    "scope": null,
-    "spec": "latest",
-    "type": "tag"
-  },
-  "_requiredBy": [
-    "#USER"
-  ],
-  "_resolved": "https://registry.npmjs.org/getstars/-/getstars-1.0.5.tgz",
-  "_shasum": "17d54bf8efdbc732e27eb973304e3369292ca3f0",
-  "_shrinkwrap": null,
-  "_spec": "getstars",
-  "_where": "/Users/xenyou/dev",
-  "author": {
-    "name": "xenyou"
-  },
+  "name": "getstars",
+  "version": "1.0.6",
+  "description": "show github stars",
+  "main": "getstars.js",
   "bin": {
     "getstars-cli": "bin/getstars.js"
   },
-  "dependencies": {
-    "superagent": "^1.5.0"
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "description": "show github stars",
-  "devDependencies": {},
-  "directories": {},
-  "dist": {
-    "shasum": "17d54bf8efdbc732e27eb973304e3369292ca3f0",
-    "tarball": "http://registry.npmjs.org/getstars/-/getstars-1.0.5.tgz"
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xenyou/getstars.git"
   },
-  "license": "ISC",
-  "main": "getstars.js",
+  "author": {
+    "name": "xenyou"
+  },
   "maintainers": [
     {
       "name": "xenyou",
       "email": "yknetg@gmail.com"
     }
   ],
-  "name": "getstars",
-  "optionalDependencies": {},
-  "readme": "ERROR: No README data found!",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/xenyou/getstars/issues"
   },
-  "version": "1.0.5"
+  "homepage": "https://github.com/xenyou/getstars#readme",
+  "dependencies": {
+    "superagent": "^1.5.0"
+  }
 }
