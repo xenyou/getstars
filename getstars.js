@@ -1,6 +1,6 @@
 #! /usr/bin/env node
 var request = require('superagent');
-var repos = require('./repos');
+var db = require('./repos');
 
 var apiURL = 'https://api.github.com/repos/';
 var promises = [];
@@ -8,6 +8,21 @@ var promises = [];
 if (!process.env.GHTOKEN) {
   console.log('environment variable GHTOKEN needed.');
   process.exit(1);
+}
+
+var type = 'all';
+if (process.argv[2]) {
+  type = process.argv[2];
+} else {
+  console.log('usage: getstars <all|game|spa|webrtc|node>');
+  process.exit(2);
+}
+
+var repos = [];
+for (var key in db) {
+  if (type == key || type == 'all') {
+    repos = repos.concat(db[key]);
+  }
 }
 
 function makeRequest(repo) {
