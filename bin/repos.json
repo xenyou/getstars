@@ -1,0 +1,16 @@
+[
+  "photonstorm/phaser",
+  "pixijs/pixi.js",
+  "BabylonJS/Babylon.js",
+  "playcanvas/engine",
+  "vuejs/vue",
+  "Polymer/polymer",
+  "riot/riot",
+  "facebook/react",
+  "facebook/flux",
+  "rackt/redux",
+  "emberjs/ember.js",
+  "angular/angular",
+  "angular/angular.js",
+  "jashkenas/backbone"
+]
