@@ -17,7 +17,8 @@
     "angular/angular",
     "angular/angular.js",
     "jashkenas/backbone",
-    "aurelia/framework"
+    "aurelia/framework",
+    "flightjs/flight"
   ],
   "webrtc": [
     "Kurento/kurento-media-server",
